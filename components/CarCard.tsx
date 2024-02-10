@@ -32,7 +32,7 @@ const CarCard = ({ car }: CarCardProps) => {
       </p>
 
       <div className="relative w-full h-40 my-3 object-contain">
-        <Image src="/hero.webp" fill priority className="object-contain" alt="car model" />
+        <Image src="/hero.webp" fill priority className="object-contain" alt="modelo do carro" />
       </div>
 
       <div className="relative flex w-full mt-2">
@@ -54,7 +54,7 @@ const CarCard = ({ car }: CarCardProps) => {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
-            <Image src="/gas.svg" width={20} height={20} alt="galão de combustível" />
+            <Image src="/gas.svg" width={20} height={20} alt="combustível" />
             <p className="text-[14px]">{city_mpg} km/L</p>
           </div>
         </div>
