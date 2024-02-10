@@ -47,7 +47,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                   </button>
 
                   <div className="flex-1 flex flex-col gap-3">
-                    <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg">
+                    <div className="relative w-full lg:h-40 h-24 bg-pattern bg-cover bg-center rounded-lg">
                       <Image src="/hero.webp" alt="car model" fill priority className="object-contain" />
                     </div>
 
@@ -78,7 +78,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                               : key === 'highway_mpg'
                               ? 'Consumo na Estrada'
                               : key === 'class'
-                              ? 'Classe'
+                              ? 'Tamanho'
                               : key === 'combination_mpg'
                               ? 'Consumo Combinado'
                               : key === 'cylinders'
@@ -100,7 +100,13 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                               : key}
                           </h4>
                           <p className="text-black-100 font-semibold">
-                            {value === 'fwd'
+                            {value === 'large car'
+                              ? 'grande'
+                              : value === 'midsize car'
+                              ? 'médio'
+                              : value === 'compact car'
+                              ? 'compacto'
+                              : value === 'fwd'
                               ? 'dianteira'
                               : value === 'rwd'
                               ? 'traseira'

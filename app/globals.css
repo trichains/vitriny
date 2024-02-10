@@ -35,6 +35,16 @@
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
+
+body::-webkit-scrollbar {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6000e5;
+  border-radius: 10px;
+  border: 3px solid black;
+}
 /* END: General styles */
 
 /* START: Hero styles */
