@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-start gap-6">
           <Image src="/logo.svg" alt="logo" width={118} height={18} className="object-contain" />
           <p className="text-base text-gray-100">
-            Vitriny - 2024 <br /> Todos os direitos reservados &copy;
+            Vitriny - 2024 <br /> Alguns direitos reservados &copy;
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between text-gray-400 items-center flex-wrap mt-10 border-t border-gray-900 sm:px-16 px-6 py-10">
-        <p>@2024 Vitriny. Todos os direitos reservados</p>
+        <p>@2024 Vitriny. Alguns direitos reservados</p>
         <div className="footer__copyrights-link">
           <Link href="/" className="text-gray-100">
             Politica de privacidade
