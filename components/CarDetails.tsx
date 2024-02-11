@@ -125,6 +125,8 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                               ? 'médio'
                               : value === 'compact car'
                               ? 'compacto'
+                              : value === 'subcompact car'
+                              ? 'subcompacto'
                               : value === 'fwd'
                               ? 'dianteira'
                               : value === 'rwd'
@@ -140,9 +142,9 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                               : value === 'electricity'
                               ? 'elétrico'
                               : value === 'a'
-                              ? 'Automático'
+                              ? 'automático'
                               : value === 'm'
-                              ? 'Manual'
+                              ? 'manual'
                               : value}
                           </p>
                         </div>

@@ -221,7 +221,7 @@ body::-webkit-scrollbar-thumb {
 
 /* START: search manufacturer styles */
 .search-manufacturer {
-  @apply flex-1 max-sm:w-full flex justify-start items-center;
+  @apply flex w-full max-sm:w-full flex justify-start items-center;
 }
 
 .search-manufacturer__input {
