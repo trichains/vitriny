@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { CarProps } from '@/types';
 import CustomButton from './CustomButton';
-import { calculateCarRent } from '@/utils';
+import { calculateCarRent, generateCarImageUrl } from '@/utils';
 import CarDetails from './CarDetails';
 
 interface CarCardProps {
@@ -32,7 +32,7 @@ const CarCard = ({ car }: CarCardProps) => {
       </p>
 
       <div className="relative w-full h-40 my-3 object-contain">
-        <Image src="/hero.webp" fill priority className="object-contain" alt="modelo do carro" />
+        <Image src={generateCarImageUrl(car)} fill priority className="object-contain" alt="modelo do carro" />
       </div>
 
       <div className="relative flex w-full mt-2">
