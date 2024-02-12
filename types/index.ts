@@ -1,4 +1,3 @@
-import { manufacturers } from './../constants/index';
 import { MouseEventHandler } from 'react';
 
 export interface CustomButtonProps {
@@ -52,4 +51,8 @@ export interface CustomFilterProps {
 export interface ShowMoreProps {
   pageNumber: number;
   isNext: boolean;
+}
+
+export interface HomeProps {
+  searchParams: FilterProps;
 }

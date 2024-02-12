@@ -1,10 +1,10 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 import { SearchManufacturer } from './';
-import Image from 'next/image';
 
 const SearchButton = ({ otherClasses }: { otherClasses?: string }) => {
   return (
@@ -22,28 +22,32 @@ const SearchBar = () => {
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (manufacturer === '' || model === '') {
-      return alert('Por favor, preencha o fabricante e o modelo.');
+    if (manufacturer.trim() === '' && model.trim() === '') {
+      return alert('Digite ao menos um fabricante ou modelo.');
     }
 
     updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
   };
 
   const updateSearchParams = (model: string, manufacturer: string) => {
+    // Cria um novo objeto URLSearchParams usando os parâmetros de pesquisa de URL atuais
     const searchParams = new URLSearchParams(window.location.search);
 
+    // Atualiza ou deleta o parâmetro de pesquisa 'model' com base no valor 'model' fornecido
     if (model) {
       searchParams.set('model', model);
     } else {
       searchParams.delete('model');
     }
 
+    // Atualiza ou deleta o parâmetro de pesquisa 'manufacturer' com base no valor 'manufacturer' fornecido
     if (manufacturer) {
       searchParams.set('manufacturer', manufacturer);
     } else {
       searchParams.delete('manufacturer');
     }
 
+    // Cria um novo caminho com os novos parâmetros de pesquisa
     const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
 
     router.push(newPathname, { scroll: false });

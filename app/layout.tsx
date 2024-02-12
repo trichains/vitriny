@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import Head from 'next/head';
-import './globals.css';
 import { Footer, Navbar } from '@/components';
+
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Vitriny - Aluguel de Carros',
@@ -18,9 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <Head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      </Head>
       <body className="relative">
         <Navbar />
         {children}
