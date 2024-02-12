@@ -12,18 +12,17 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
+    <>
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:image" content={metadata.image} />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
       </Head>
       <body className="relative">
         <Navbar />
         {children}
         <Footer />
       </body>
-    </html>
+    </>
   );
 }
