@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <br />
+    <a href="https://vitriny.vercel.app/" target="_blank">
+      <img src="https://github.com/trichains/vitriny/assets/25783243/61a8db2e-8c59-46d0-ac95-d84ba69b2040" alt="Banner do Projeto">
+    </a>
+  <br />
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-First, run the development server:
+  <h3 align="center">Descubra e Alugue os Melhores Carros 🚗✨</h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   <div align="center">
+     Explore o  <a href="https://vitriny.vercel.app/" target="_blank">
+      Vitriny</a> diretamente e descubra uma experiência única de visualização e aluguel de carros incríveis.
+    </div>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Vitriny - Catálogo de Carros para Alugar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bem-vindo ao Vitriny, o seu catálogo online para descobrir e alugar os melhores carros do mundo! Este projeto foi desenvolvido com tecnologias modernas para oferecer uma experiência atraente e eficiente.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologias Utilizadas
 
-## Learn More
+- **Next.js**: Um framework React que permite a criação de aplicativos web rápidos e eficientes.
+- **Tailwind CSS**: Um framework CSS utilitário que facilita o desenvolvimento de estilos de forma rápida e consistente.
+- **TypeScript**: Uma linguagem de programação que adiciona tipos estáticos ao JavaScript, tornando o código mais legível e robusto.
 
-To learn more about Next.js, take a look at the following resources:
+## Destaques do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Responsividade**: O Vitriny é totalmente responsivo, garantindo uma experiência consistente em dispositivos desktop e móveis.
+- **Código Documentado e Estruturado**: O código fonte está bem documentado, estruturado e indentado para facilitar a manutenção e colaboração.
+- **API de Carros do RapidAPI**: Utilizamos a API de carros da api-ninjas do RapidAPI para fornecer informações sobre fabricantes e modelos de carros.
+- **Imagens do Imagin.studio**: As imagens dos carros foram geradas dinamicamente usando o imagin.studio, proporcionando um visual único e atraente.
+- **Design Personalizado**: Todas as cores e o design foram criados especificamente para o projeto Vitriny, proporcionando uma identidade visual única.
