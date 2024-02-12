@@ -15,7 +15,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
-        <h1 className="hero__title color-hero">Encontre, reserve, alugue um carro — de forma rápida e fácil!</h1>
+        <h1 className="hero__title color-hero">
+          Encontre, reserve, alugue um carro — de <span className="text-primary-purple">forma rápida e fácil!</span>
+        </h1>
 
         <p className="hero__subtitle subtitle-hero">
           Facilite seu aluguel de carros com nosso processo de reserva simplificado.
