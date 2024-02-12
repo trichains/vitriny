@@ -34,10 +34,10 @@ Este projeto foi desenvolvido com tecnologias modernas para oferecer uma experi�
 
 - **Responsividade**: O Vitriny é totalmente responsivo, garantindo uma experiência consistente em dispositivos desktop e móveis.
 - **Código Documentado e Estruturado**: O código fonte está bem documentado, estruturado e indentado para facilitar a manutenção.
+- **Metodologia BEM (CSS)**: Adotei a metodologia BEM (Block, Element, Modifier) para organizar e estruturar o código CSS do Vitriny.
 - **API de Carros do RapidAPI**: Utilizei a API de carros da api-ninjas do RapidAPI para fornecer informações sobre fabricantes e modelos de carros.
 - **Imagens do Imagin.studio**: As imagens dos carros foram geradas dinamicamente usando o imagin.studio, proporcionando um visual único e atraente.
 - **Design Personalizado**: Todas as cores e o design foram criados especificamente para o projeto Vitriny, proporcionando uma identidade visual única.
-- **Metodologia BEM (CSS)**: Adotei a metodologia BEM (Block, Element, Modifier) para organizar e estruturar o código CSS do Vitriny.
 
 ## Performance do Site
 
