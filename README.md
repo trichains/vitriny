@@ -21,7 +21,8 @@
 
 # Vitriny - Catálogo de Carros para Alugar
 
-Bem-vindo ao Vitriny, o seu catálogo online para descobrir e alugar os melhores carros do mundo! Este projeto foi desenvolvido com tecnologias modernas para oferecer uma experiência atraente e eficiente.
+Bem-vindo ao Vitriny, o seu catálogo online para descobrir e alugar os melhores carros do mundo!
+Este projeto foi desenvolvido com tecnologias modernas para oferecer uma experiência atraente e eficiente.
 
 ## Tecnologias Utilizadas
 
@@ -32,7 +33,17 @@ Bem-vindo ao Vitriny, o seu catálogo online para descobrir e alugar os melhores
 ## Destaques do Projeto
 
 - **Responsividade**: O Vitriny é totalmente responsivo, garantindo uma experiência consistente em dispositivos desktop e móveis.
-- **Código Documentado e Estruturado**: O código fonte está bem documentado, estruturado e indentado para facilitar a manutenção e colaboração.
-- **API de Carros do RapidAPI**: Utilizamos a API de carros da api-ninjas do RapidAPI para fornecer informações sobre fabricantes e modelos de carros.
+- **Código Documentado e Estruturado**: O código fonte está bem documentado, estruturado e indentado para facilitar a manutenção.
+- **API de Carros do RapidAPI**: Utilizei a API de carros da api-ninjas do RapidAPI para fornecer informações sobre fabricantes e modelos de carros.
 - **Imagens do Imagin.studio**: As imagens dos carros foram geradas dinamicamente usando o imagin.studio, proporcionando um visual único e atraente.
 - **Design Personalizado**: Todas as cores e o design foram criados especificamente para o projeto Vitriny, proporcionando uma identidade visual única.
+
+## Performance do Site
+
+O desempenho do Vitriny é otimizado para fornecer uma experiência rápida e eficiente aos usuários.
+Abaixo está o Lighthouse Score do site, uma ferramenta popular para análise de desempenho:
+
+![](https://github.com/trichains/vitriny/assets/25783243/098cc9dd-6e46-4e4b-b34b-3a87cdf1ec08)
+
+Busco alcançar altas pontuações em métricas importantes de desempenho, incluindo velocidade de carregamento, acessibilidade, práticas recomendadas e SEO.
+Continuo aprimorando a performance para garantir uma experiência suave e rápida para todos os usuários.
