@@ -92,10 +92,10 @@ export const footerLinks = [
   {
     title: 'Redes Sociais',
     links: [
-      { title: 'Discord', url: '/' },
-      { title: 'Instagram', url: '/' },
-      { title: 'GitHub', url: '/' },
-      { title: 'LinkedIn', url: '/' }
+      { title: 'Portfolio', url: 'https://trichains.dev' },
+      { title: 'Instagram', url: 'https://www.instagram.com/trichains/' },
+      { title: 'GitHub', url: 'https://github.com/trichains' },
+      { title: 'LinkedIn', url: 'https://www.linkedin.com/in/trichains/' }
     ]
   }
 ];
