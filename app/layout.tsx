@@ -1,20 +1,25 @@
 import './globals.css';
-import Head from 'next/head';
-
 import { Footer, Navbar } from '@/components';
+import { Helmet } from 'react-helmet';
+
+export const metadata = {
+  title: 'Vitriny - Aluguel de Carros',
+  description: 'Encontre os melhores carros para alugar e tenha a experiência perfeita em sua viagem.',
+  imageUrl: 'https://i.ibb.co/CnPhpKM/vitriny.png'
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Head>
-        <title>Vitriny - Aluguel de Carros</title>
-        <meta
-          name="description"
-          content="Encontre os melhores carros para alugar e tenha a experiência perfeita em sua viagem."
-        />
-        <meta property="og:image" content="https://i.ibb.co/CnPhpKM/vitriny.png" />
-        {/* Adicione outras meta tags necessárias aqui */}
-      </Head>
+      <Helmet>
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.imageUrl} />
+        <meta property="og:image:alt" content={metadata.title} />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <body className="relative">
         <Navbar />
         {children}
