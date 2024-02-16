@@ -28,11 +28,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <>
       <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content={(metadata.title as string) ?? 'teste'} />
-        <meta name="description" content={(metadata.description as string) ?? 'teste desc'} />
-        <meta name="keywords" content="Vitriny, Aluguel de Carros, Viagem" />
+        <title>Vitriny - Aluguel de Carros</title>
+        <meta property="og:title" content="Vitriny - Aluguel de Carros" />
+        <meta
+          name="description"
+          content="Encontre os melhores carros para alugar e tenha a experiência perfeita em sua viagem."
+        />
+        <meta
+          property="og:description"
+          content="Encontre os melhores carros para alugar e tenha a experiência perfeita em sua viagem."
+        />
+        <meta property="og:url" content="https://vitriny.vercel.app/" />
+        <meta property="og:image" content="https://i.ibb.co/CnPhpKM/vitriny.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body className="relative">
         <Navbar />
