@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
+import Head from 'next/head';
+import { Footer, Navbar } from '@/components';
 
 import './globals.css';
-
-import { Footer, Navbar } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Vitriny - Aluguel de Carros',
@@ -27,6 +27,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content={(metadata.title as string) ?? 'teste'} />
+        <meta name="description" content={(metadata.description as string) ?? 'teste desc'} />
+        <meta name="keywords" content="Vitriny, Aluguel de Carros, Viagem" />
+      </Head>
       <body className="relative">
         <Navbar />
         {children}
