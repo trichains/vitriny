@@ -1,5 +1,4 @@
 import { Footer, Navbar } from '@/components';
-import Head from 'next/head';
 
 import './globals.css';
 
@@ -26,17 +25,12 @@ export const metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        {/* Adicione outras metatags conforme necessário */}
-      </Head>
-      <div className="relative">
+    <html lang="pt-BR">
+      <body className="relative">
         <Navbar />
         {children}
         <Footer />
-      </div>
-    </>
+      </body>
+    </html>
   );
 }
