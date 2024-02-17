@@ -20,7 +20,7 @@ export async function fetchCars(filters: FilterProps) {
 }
 
 export const calculateCarRent = (city_mpg: number, year: number) => {
-  const basePricePerDay = 100; // Preço base de aluguel por dia em reais
+  const basePricePerDay = 260; // Preço base de aluguel por dia em reais
   const mileageFactor = 0.1; // Tarifa adicional por milha rodada
   const ageFactor = 0.05; // Taxa adicional por ano de idade do veículo
 
